@@ -1,0 +1,37 @@
+
+.rectangle {
+    width: 800px;
+    height: 400px; 
+    background: #DFDCDB;
+    position: absolute; 
+    left: 230px; 
+    top: 240px; 
+    box-shadow: 5px 10px 50px #6FB2C6;
+}
+
+.score-rectangle {
+    width: 410px;
+    height: 300px;
+    background: #DFDCDB;
+    position: absolute;
+    left: 1300px;
+    top: 240px; 
+    text-align: center;
+    box-shadow: 5px 10px 50px #6FB2C6;
+    
+
+}
+
+.player-current-label {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 35px;
+    color: #222;  
+}
+
+.player-current-score {
+    line-height: 200px;
+    text-align: center;
+    font-size: 100px;
+
+}
