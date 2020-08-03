@@ -1,4 +1,9 @@
 
+* {
+    font-family: 'Red Rose', cursive;
+}
+
+
 .rectangle {
     width: 800px;
     height: 400px; 
@@ -70,3 +75,31 @@
     
 }
 
+.try-again {
+    position: absolute;
+    left: 300px;
+    top: 170px; 
+    color: red; 
+    display: none; 
+
+    
+}
+
+.plus-one {
+    text-align: start;
+    font-size: 50px; 
+    color: green; 
+    display: none; 
+}
+
+.correct {
+    position: absolute;
+    left: 300px;
+    top: 170px; 
+    color: green; 
+    display: none; 
+}
+
+.title-question {
+    line-height: 155px;
+}
