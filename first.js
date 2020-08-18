@@ -117,16 +117,7 @@ var controller = (function(scoreCtrl, UICtrl){
     return obj.answer;
     
     }
-
-
-    var checkAns = function(){
-        
-
-    }
     
-
-
-
 
     var setupEventListeners = function(){
         document.getElementById('pic-0').addEventListener('click',function(){
@@ -199,7 +190,7 @@ var controller = (function(scoreCtrl, UICtrl){
 
         document.getElementById('pic-2').addEventListener('click',function(){
             
-            var n = document.getElementById('pic-2').src; 
+            var n = document.getElementById('pic-2').src;
             var tempAns,
 
             tempAns = false; 
@@ -279,9 +270,6 @@ var controller = (function(scoreCtrl, UICtrl){
 }
 
 
- 
-
-    
     // function to have the other functions
     var init2 = function(){
 
@@ -324,3 +312,26 @@ var controller = (function(scoreCtrl, UICtrl){
 
 controller.init(); 
 
+
+
+// gas mask = 3k 
+// can last 7 seconds in storm 
+ 
+
+function masks (money) {
+
+const mask = 3000; 
+const totalMasks = money/mask 
+let totalSecs = totalMasks * 7; 
+let totalRem = totalSecs % 60; 
+
+console.log(Math.round(totalSecs/60) + ' minutes');
+console.log(Math.round(totalRem) + ' seconds');
+
+
+
+      
+
+}
+
+masks(100000); 
